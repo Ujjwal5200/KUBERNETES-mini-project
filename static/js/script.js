@@ -77,7 +77,7 @@ $(document).ready(function() {
                 setTimeout(() => {
                     currentQuestionIndex++;
                     loadQuestion();
-                }, 4000); // Show feedback for 4 seconds to allow reading facts
+                }, 4000);
             }
         });
     });
